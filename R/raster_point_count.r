@@ -1,3 +1,13 @@
+#' Raster point count function
+#'
+#' This function allows you to extract the las element of a vector.
+#' @param v A vector.
+#' @keywords last
+#' @export
+#' @examples
+#' y<-rnorm(10,0,1)
+#' dist_raster(poly, r, field = NULL)
+
 ### Number of point on raster grid ###
 
 raster_point_count <- function(point, rst, year.col=NULL, prefix=NULL){

@@ -1,3 +1,13 @@
+#' PTA to raster function
+#'
+#' This function allows you to extract the las element of a vector.
+#' @param v A vector.
+#' @keywords last
+#' @export
+#' @examples
+#' y<-rnorm(10,0,1)
+#' dist_raster(poly, r, field = NULL)
+
 ### Function to transform PTA shp file to 1x1 km raster ###
 
 pta_to_raster <- function(pta, crs=NULL, res=c(1000,1000)){

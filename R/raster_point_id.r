@@ -1,3 +1,13 @@
+#' Number of point within raster function
+#'
+#' This function allows you to extract the las element of a vector.
+#' @param v A vector.
+#' @keywords last
+#' @export
+#' @examples
+#' y<-rnorm(10,0,1)
+#' dist_raster(poly, r, field = NULL)
+
 ### number of point in each raster filtered out by duplicated ID ###
 
 raster_point_id <- function(point, rst, id.col=NULL, year.col=NULL, prefix=NULL){

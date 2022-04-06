@@ -1,3 +1,13 @@
+#' Line length on raster function
+#'
+#' This function allows you to extract the las element of a vector.
+#' @param v A vector.
+#' @keywords last
+#' @export
+#' @examples
+#' y<-rnorm(10,0,1)
+#' dist_raster(poly, r, field = NULL)
+
 ### Map line (shp file) to pta raster as length (meter) ###
 
 raster_line_length <- function(line, rst, mask=T, prec=1e5){

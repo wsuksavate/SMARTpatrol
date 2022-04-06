@@ -1,3 +1,13 @@
+#' Dummy raster function
+#'
+#' This function allows you to extract the las element of a vector.
+#' @param v A vector.
+#' @keywords last
+#' @export
+#' @examples
+#' y<-rnorm(10,0,1)
+#' dist_raster(poly, r, field = NULL)
+
 ### Function to turn categorical spatialdataframe to dummy raster
 # spatialdataframe input (poly) must have only 1 field
 dummy_raster <- function(poly, r, field){

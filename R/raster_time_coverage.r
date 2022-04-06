@@ -1,3 +1,13 @@
+#' Time raster function
+#'
+#' This function allows you to extract the las element of a vector.
+#' @param v A vector.
+#' @keywords last
+#' @export
+#' @examples
+#' y<-rnorm(10,0,1)
+#' dist_raster(poly, r, field = NULL)
+
 ### Map line (shp file) to pta raster as coverage by factor of resolution ###
 
 raster_time_coverage <- function(line, type=c('month', 'week', 'yday'), date.col, rst, mask=T, prec=1e5){

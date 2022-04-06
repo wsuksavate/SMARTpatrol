@@ -1,3 +1,13 @@
+#' Line coverage on raster function
+#'
+#' This function allows you to extract the las element of a vector.
+#' @param v A vector.
+#' @keywords last
+#' @export
+#' @examples
+#' y<-rnorm(10,0,1)
+#' dist_raster(poly, r, field = NULL)
+
 ### Map line (shp file) to pta raster as coverage by factor of resolution ###
 
 raster_line_coverage <- function(line, rst, res.fact=5, mask=T, prec=1e5, binary = TRUE, is_line=TRUE){

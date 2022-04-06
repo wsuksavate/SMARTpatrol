@@ -1,3 +1,13 @@
+#' Quantile raster function
+#'
+#' This function allows you to extract the las element of a vector.
+#' @param v A vector.
+#' @keywords last
+#' @export
+#' @examples
+#' y<-rnorm(10,0,1)
+#' dist_raster(poly, r, field = NULL)
+
 quantile_raster <- function(rst, sep.cdf=FALSE){
 	# rst = raster
   # sep.cdf = FALSE -> calculate pooled cdf for all layers

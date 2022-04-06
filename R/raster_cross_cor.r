@@ -1,3 +1,13 @@
+#' Raster cross-correlation function
+#'
+#' This function allows you to extract the las element of a vector.
+#' @param v A vector.
+#' @keywords last
+#' @export
+#' @examples
+#' y<-rnorm(10,0,1)
+#' dist_raster(poly, r, field = NULL)
+
 # Cross-Correlation between 2 rasterstack
 # Require the stack to be sorted as time series
 

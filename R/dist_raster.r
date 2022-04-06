@@ -1,3 +1,13 @@
+#' Distance raster function
+#'
+#' This function allows you to extract the las element of a vector.
+#' @param v A vector.
+#' @keywords last
+#' @export
+#' @examples
+#' y<-rnorm(10,0,1)
+#' dist_raster(poly, r, field = NULL)
+
 ### Function to turn categorical raster to raster of the nearest distance to each categorical feature
 # field = define field of categorical raster
 # if field is missing -> distance to all features
